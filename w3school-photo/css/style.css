@@ -1,0 +1,115 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  box-sizing: border-box;
+}
+/* Begin Header */
+header {
+  background: url(../img/photographer.jpg) top center / cover no-repeat;
+  padding-top: 50%;
+  position: relative;
+}
+.heading-box {
+  color: white;
+  text-transform: uppercase;
+  border: 1px solid white;
+  text-align: center;
+  padding: 24px 48px;
+  font-size: 1.5rem;
+  letter-spacing: 12px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.heading-box h1 {
+  padding: 12px 0;
+}
+.heading-box p {
+  padding: 12px 0;
+}
+/* End Heading */
+
+/* Begin Nav */
+nav {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-top: -30px;
+  background-color: #ccc;
+  border-radius: 8px;
+  overflow: hidden;
+}
+nav li {
+  display: inline-block;
+  text-align: center;
+  padding: 16px;
+  border: none;
+}
+nav li a {
+  text-decoration: none;
+  color: black;
+}
+nav li:hover {
+  background-color: rgb(116, 114, 114);
+}
+/* End nav */
+
+/* Begin Images */
+.image {
+  margin: 24px auto;
+  max-width: 980px;
+}
+.image img {
+  width: 100%;
+  padding: 12px 24px;
+}
+/* End Images */
+
+/* Begin form */
+form {
+  max-width: 980px;
+  margin: 12px auto;
+  padding: 12px 24px;
+}
+form div {
+  background-color: whitesmoke;
+  padding: 48px 24px;
+}
+form h2 {
+  text-align: center;
+}
+form p {
+  margin: 16px 0;
+  text-align: justify;
+}
+form label {
+}
+form input {
+  width: 100%;
+  padding: 8px 0;
+  margin-bottom: 12px;
+}
+.btn {
+  background-color: #757575;
+  border: none;
+  color: white;
+  margin-top: 8px;
+  padding: 12px 0;
+}
+.btn:hover {
+  background-color: #ccc;
+  color: black;
+  cursor: pointer;
+}
+/* End form */
+
+/* Responsive */
+@media screen and (max-width: 786px) {
+  nav {
+    width: 100%;
+    border-radius: 0;
+    text-align: center;
+  }
+}

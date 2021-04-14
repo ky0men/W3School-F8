@@ -1,0 +1,146 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  font-family: "Roboto", sans-serif;
+}
+.clear {
+  clear: both;
+}
+.text-white{
+  color: white; !important
+}
+
+#header {
+  height: 46px;
+  background-color: black;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+}
+
+#nav li {
+  display: inline-block;
+  line-height: 46px;
+  text-transform: uppercase;
+  position: relative;
+}
+#nav > li > a {
+  color: white;
+}
+#nav li a {
+  text-decoration: none;
+  padding: 0 24px;
+  display: inline-block;
+}
+#nav > li:hover > a {
+  color: #000;
+  background-color: #ccc;
+}
+#nav .subnav {
+  position: absolute;
+  background-color: white;
+  box-shadow: 0 0 10px rgba(146, 144, 144, 0.5);
+  display: none;
+}
+#nav .down-button {
+  font-size: 14px;
+}
+#nav li:hover .subnav {
+  display: block;
+}
+
+#nav .subnav a {
+  color: black;
+  text-transform: capitalize;
+  padding: 0px 12px;
+}
+#nav .subnav li {
+  width: 100%;
+  min-width: 160px;
+}
+#nav .subnav li:hover {
+  background-color: #ccc;
+}
+#header .search-button {
+  color: white;
+  position: absolute;
+  top: 0;
+  right: 0;
+  line-height: 46px;
+  padding: 0 23px;
+  cursor: pointer;
+}
+#header .search-button:hover {
+  background-color: #f44336;
+}
+
+#slider {
+  position: relative;
+  margin-top: 46px;
+  padding-top: 50%;
+  background: url(../img/la.jpg) top center / cover no-repeat;
+}
+.text-content {
+  position: absolute;
+  color: white;
+  padding: 32px;
+  text-align: center;
+  width: 100%;
+  bottom: 0;
+}
+.text-heading {
+  margin-bottom: 25px;
+}
+
+.content-section {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 800px;
+  text-align: center;
+  padding-top: 64px;
+}
+.content-heading {
+  margin: 10px;
+  letter-spacing: 4px;
+}
+.content-sub-heading {
+  margin: 15px;
+  font-style: italic;
+  opacity: 0.6;
+}
+.content-text {
+  margin: 15px;
+  text-align: justify;
+  line-height: 1.4;
+}
+.member-list {
+  margin: 32px 0;
+}
+.member-list .member {
+  float: left;
+  width: 33.33333%;
+}
+.member-list .member-img {
+  width: 154px;
+  margin: 15px 0;
+  border-radius: 4px;
+}
+#content .tour {
+  background-color: #000;
+  text-align: center;
+  max-width: 800px;
+  padding-top: 64px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.tour .tickets{
+  background-color: #fff;
+  text-align: left;
+}
+#footer {
+}
